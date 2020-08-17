@@ -3,7 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-     name='jamf helper window tool',  
+     name='jamf_helper_window_tool',  
      version='0.1',
      scripts=['makewindow.py'] ,
      author="Zackn9ne",
