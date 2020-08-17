@@ -1,3 +1,3 @@
 import makewindow
 
-mw = makewindow.Makewindow()
+mw = makewindow.Make_window()
