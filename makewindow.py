@@ -1,4 +1,3 @@
-#!/opt/advisory/python3.7
 # windows
 class Make_Window():
 
