@@ -1,5 +1,5 @@
 # windows
-class Make_Window():
+class MakeWindow():
 
     def __init__(self,bar,content,button):
         self.window = { 
