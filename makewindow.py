@@ -3,7 +3,7 @@ class MakeWindow():
 
     def __init__(self,bar,content,button):
         self.window = { 
-            'app': '''/Library/Application Support/JAMF/bin/\
+            'app': '''/Library/Application\ Support/JAMF/bin/\
 jamfHelper.app/Contents/MacOS/jamfHelper''',
             'cmd1': '-windowType',
             'type': 'hud',
@@ -12,7 +12,7 @@ jamfHelper.app/Contents/MacOS/jamfHelper''',
             'cmd3': '-description',
             'content': content,
             'cmd4': '-icon',
-            'icon': '''/System/Library/CoreServices/Problem Reporter.app/Contents/Resources/ProblemReporter.icns''',
+            'icon': '''/System/Library/CoreServices/Problem\ Reporter.app/Contents/Resources/ProblemReporter.icns''',
             'cmd5': '-defaultbutton',
             'default_btn':'1',
             'cmd6': '-button1',
